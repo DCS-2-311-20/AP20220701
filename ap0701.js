@@ -67,7 +67,7 @@ function init() {
   const display = new THREE.Group();
   {
     // 表示部
-    const silverMaterial = new THREE.MeshPhongMaterial({color: "silver"})
+    const silverMaterial = new THREE.MeshPhongMaterial({color: "silver"});
     const face = new THREE.Mesh(
       new THREE.BoxGeometry(params.dpyW, params.dpyH, params.dpyD),
       silverMaterial
